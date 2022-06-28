@@ -1,0 +1,19 @@
+<tagname>: <title>
+[Task]: <task_id>
+
+[Description list]
+<type>: <description>
+
+[Notes]
+<notes>
+
+# Tagname depends on the type of change. Possible tag names - chore, hotfix, patch, minor, major. 
+# The smallest changes, mostly refactoring, functions renaming, small optimisations, adding tests, etc - 
+# can and should be called the chore. The chore does not update the version. 
+# The small fixes in functionality/ci/build that require the build version should be called hotfix. 
+# The functionality implementation, the feature developed, 
+# the change that does not change the interfaces and API should be called ->  patch.
+# The flow change, the infrastructure change, a feature that adds something significantly new, etc -> should be called minor.
+# The change of approach, a full change of API and/or underlying logic, etc -> should be called major.
+
+# build, ci, docs, feat, fix, perf, refactor, style, test - <type>

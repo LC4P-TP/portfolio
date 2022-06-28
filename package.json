@@ -1,0 +1,29 @@
+{
+  "name": "js",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "build": "gulp build",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint ./src/**/*.ts",
+    "lint-fix": "eslint --fix ./src/**/*.ts",
+    "prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "del": "^6.1.1",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.2",
+    "gh-pages": "^4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-eslint-new": "^1.5.1",
+    "gulp-prettier": "^4.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "sass": "^1.52.3",
+    "typescript": "^4.7.3"
+  }
+}
